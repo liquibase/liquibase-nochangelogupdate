@@ -4,7 +4,7 @@
 
 	<groupId>org.liquibase.ext</groupId>
 	<artifactId>liquibase-nochangelogupdate</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 
 	<name>Liquibase Extension: No ChangeLog Table Updates</name>
 	<description>When running an update, Liquibase will not touch the databasechangelog table to mark changeSets as ran</description>
