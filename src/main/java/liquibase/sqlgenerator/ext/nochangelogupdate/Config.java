@@ -11,6 +11,10 @@ public class Config {
     }
 
     public boolean isEnabled() {
-        return Boolean.getBoolean("liquibase.ext.nochangelogupdate.enabled");
+        String enabledProperty = System.getProperty("liquibase.ext.nochangelogupdate.enabled");
+        if (enabledProperty == null) {
+            return true;
+        }
+        return Boolean.valueOf(enabledProperty);
     }
 }
