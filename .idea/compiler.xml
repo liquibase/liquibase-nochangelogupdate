@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="liquibase-nochangeloginsert" />
+        <module name="liquibase-nochangelogupdate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="liquibase-nochangeloginsert" target="1.6" />
+      <module name="liquibase-nochangelogupdate" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
